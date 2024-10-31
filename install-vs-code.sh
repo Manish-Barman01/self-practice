@@ -29,7 +29,7 @@ while true; do
         # Check if the file exists
         if [ -f "$file" ]; then
             echo "Installing $file..."
-            sudo apt install ./"$file"  # This will prompt for the password
+            sudo apt install $file  # This will prompt for the password
             break  # Exit the loop if installation is successful
         else
             echo "File not found: $file. Please enter the correct file name."
