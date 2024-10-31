@@ -4,14 +4,16 @@ set -e  # Stop the script if any command fails
 
 echo "Download the .deb file from this link:"
 echo "https://code.visualstudio.com/Download"
+echo "---------------------------------------"
 echo "Check karo file download ho gaya hai."
+echo "---------------------------------------"
 echo "Uske baad Press enter to continue..."
 read  # Wait for user to press enter
 echo "--------------------"
 echo "File ko copy karo."
 echo "--------------------"
 
-ls -ltrsh /home/manish/Downloads/code*
+ls -ltrsh ~/Downloads/code*
 echo "Press enter to continue..."
 read  # Wait for user to press enter
 
